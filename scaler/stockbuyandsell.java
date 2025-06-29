@@ -1,8 +1,9 @@
+//https://www.scaler.com/academy/mentee-dashboard/class/34604/homework/problems/14?navref=cl_tt_lst_sl
 
 public class Solution {
 
     public int maxProfit(int[] A) {
-        if (A.length == 0) {
+        if (A.length == null || A.length == 0) {
             return 0;
         }
 
