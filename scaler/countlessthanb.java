@@ -1,8 +1,10 @@
 https
+
 ://www.scaler.com/academy/mentee-dashboard/class/34604/assignment/problems/16089/submissions
 public class Solution {
 
     public int solve(int[] A, int B) {
+        // sum==0;
 
         int sum, count = 0;
         for (int i = 0; i < A.length; i++) {
