@@ -1,0 +1,27 @@
+
+
+public class Solution {
+    public ArrayList<Integer> dNums(ArrayList<Integer> A, int B) {
+        HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
+        ArrayList<Integer> ans=new ArrayList<Integer>();
+        for(int i=0;i<B;i++)
+        {
+            map.put(A.get(i),map.getOrDefault(A.get(i),0)+1);
+        }
+        ans.add(map.size());
+          for(int i=B;i<A.size();i++)
+       { 
+           int out= A.get(i-B);
+          int in=A.get(i);
+            
+          map.put(out,map.get(out)-1);
+          if(map.get(out)==0) {
+              map.remove(out);
+                }
+               map.put(in,map.getOrDefault(in,0)+1);
+
+                 ans.add(map.size());
+       }
+       return ans;
+    }
+}
