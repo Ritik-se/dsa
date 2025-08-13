@@ -1,0 +1,30 @@
+public class Solution {
+    public ArrayList<Integer> maxset(ArrayList<Integer> A) {
+        ArrayList<Integer> arr=new ArrayList<>();
+        long curr=0,sum=0;
+        int start=-1,end=-1,temp=0;
+        for(int i=0;i<A.size();i++)
+
+        {
+            if(A.get(i)<0)
+            {
+                curr=0;
+                temp=i+1;
+            }
+            else{
+            curr+=A.get(i);
+            if(curr>sum||(curr==sum&&i-temp>end-start))
+            {
+                sum=curr;
+                start=temp;
+                end=i;
+            }
+
+        }
+        }
+        for (int i = start; i <= end && start != -1; i++) {
+    arr.add(A.get(i));
+}
+return arr;
+    }
+}
