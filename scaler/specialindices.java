@@ -7,6 +7,7 @@ public public class Solution {
         int[] oddps = new int[A.length];
         int[] evenps = new int[A.length];
         oddps[0] = 0;
+        //test
         evenps[0] = A[0];
         int sumodd, sumeven, count = 0;
         for (int i = 1; i < A.length; i++) {
