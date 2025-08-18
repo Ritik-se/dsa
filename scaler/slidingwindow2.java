@@ -32,6 +32,7 @@ public class Solution {
             }
         }
         return bad;
+        /// we count bad elements 
 
     }
 }
