@@ -7,6 +7,7 @@ public class Solution {
     public int[] solve(final int[] a) {
         int i = 0, temp;
         int j = a.length - 1;
+        // using 3rd variable 
         while (i < j) {
             temp = a[j];
             a[j] = a[i];
