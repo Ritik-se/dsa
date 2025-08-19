@@ -1,6 +1,6 @@
 //
 //https://www.scaler.com/academy/mentee-dashboard/class/34608/assignment/problems/12828?navref=cl_tt_nv
-
+// care fully 
 public public class Solution {
 
     public int solve(int[] A) {
