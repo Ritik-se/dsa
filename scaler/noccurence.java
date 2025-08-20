@@ -1,5 +1,6 @@
 
 public class Solution {
+    // no of times element occures in the array
 
     public int getSum(int c, int B, ArrayList<Integer> A) {
         HashMap<Integer, Integer> map = new HashMap<>();
