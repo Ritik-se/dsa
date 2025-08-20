@@ -5,7 +5,7 @@ public class Solution {
         int count = 0;
         for (int i = 1; i * i <= A; i++) {
             if (A % i == 0) {
-                if (i == A / i) {
+                if (i == A / i) {// i ans A/i repeated 
                     count++;
                 } else {
                     count = count + 2;
