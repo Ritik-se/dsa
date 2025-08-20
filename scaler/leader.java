@@ -1,6 +1,7 @@
 //https://www.scaler.com/academy/mentee-dashboard/class/34603/assignment/problems/11921/hints?navref=cl_pb_nv_tb
 
 public class Solution {
+    // no of leaders in array
 
     public int[] solve(int[] A) {
         int max = A[A.length - 1];
