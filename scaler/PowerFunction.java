@@ -4,6 +4,7 @@ public class Solution {
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
     public int power(final int A, final int B) {
         int mult = 1;
+        // do not mutiply A*a;
         for(int i=0;i<B;i++){
             mult = mult * A;
         }
