@@ -4,6 +4,8 @@ public class Solution {
 
     public int[] solve(int[] a, int B) {
         B = B % a;//value greater than n
+        // its classic problem 
+        // rev then rev then rev
 
         for (int i = 0, j = a.length - 1; i < j; i++, j--) {
             int temp;
