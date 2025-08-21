@@ -4,6 +4,8 @@ public class Solution {
 
     public int[] solve(int[] a, int B, int C) {
         int i = B, j = C, temp;
+        // it also from 
+        //
         while (i < j) {
             temp = a[i];
             a[i] = a[j];
