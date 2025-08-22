@@ -7,7 +7,7 @@ public class Solution {
         }
         int max=curr;
         int rem=B-1,add=A.length-1;
-        while(rem>=0&&add>=0)
+        while(rem>=0&&add>=0)// adding and removing of elements
         {
             curr+=A[add--];
             curr-=A[rem--];
