@@ -9,13 +9,16 @@ public public class Solution {
                {
                   l++; 
                }
+               // smaller elements count
             }
+         
             for(int j=i+1;j<A.length;j++)
             {
                if(A[j]> A[i])
                {
                   r++; 
                }
+               // greater eleemnts in the array 
             }
             result+=r*l;
 
@@ -23,6 +26,4 @@ public public class Solution {
         return result;
     }
 }
- {
-    
-}
+ // triplets 
