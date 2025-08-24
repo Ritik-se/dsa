@@ -12,7 +12,7 @@ public public class Solution {
     }
 
     public int solve(int A) {
-        return sum(A);
+        return sum(A);// return sum
 
     }
 }
