@@ -1,0 +1,27 @@
+public class Solution {
+    public int solve(int[][] A, int B) {
+        int i=0;
+        int n=A[0].length-1;
+        int ans=Integer.MAX_VALUE;
+        
+        while(i<A.length&&n>=0)
+        {
+            if(B==A[i][n])
+            {
+             ans=Math.min(ans,(i+1)*1009+(n+1));
+             n--;/// most imp we need to also shift when we enconter the target
+            }
+           else if(A[i][n]>B)
+            {
+                n--;
+            }
+            else if(B>A[i][n])
+            {
+                i++;
+            }
+        }
+      return ans == Integer.MAX_VALUE ? -1 : ans;
+
+
+    }
+}
