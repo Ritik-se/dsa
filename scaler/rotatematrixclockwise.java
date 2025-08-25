@@ -12,6 +12,7 @@ public public class Solution {
                 A[j][i] = temp;
             }
         }
+        // imp for an   
 
         // Step 2: Reverse each row
         for (int i = 0; i < n; i++) {
