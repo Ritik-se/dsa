@@ -9,6 +9,7 @@ public class Solution {
             if (a[i] > max) {
                 smax = max;
                 max = a[i];
+                // this case is imp because it goona tell us 
             } else if (a[i] > smax && a[i] != max) {
                 smax = a[i];
             }
