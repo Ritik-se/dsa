@@ -9,6 +9,7 @@ public public class Solution {
         oddps[0] = 0;
         //test
         evenps[0] = A[0];
+        // special indeices means sum of even and odd should be equal
         int sumodd, sumeven, count = 0;
         for (int i = 1; i < A.length; i++) {
             if (i % 2 == 0) {
