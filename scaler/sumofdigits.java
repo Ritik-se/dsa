@@ -15,6 +15,7 @@ public public class Solution {
         return sum(A);// return sum
 
     }
+    ..
 }
 {
     
