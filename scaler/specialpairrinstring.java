@@ -26,7 +26,8 @@ public class Solution {
         int counta = 0;
         for (int i = 0; i < A.length(); i++) {
             if (A.charAt(i) == 'A') {
-                counta++;
+                counta++;// before g how many a is occured in the array 
+                
             } else if (A.charAt(i) == 'G') {
                 ans += counta;
             }
