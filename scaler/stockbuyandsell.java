@@ -15,7 +15,7 @@ public class Solution {
                 minPrice = A[i]; // New lower buying price
             } else {
                 int profit = A[i] - minPrice;
-                if (profit > maxProfit) {
+                if (profit > maxProfit) {// caareful with silly mistakes
                     maxProfit = profit;
                 }
             }
