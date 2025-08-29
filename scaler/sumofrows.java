@@ -9,7 +9,7 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             int sum = 0;
             for (int j = 0; j < m; j++) {
-                sum += A[i][j];
+                sum += A[i][j];// sum of rows
             }
             ans[i] = sum;
         }
