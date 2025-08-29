@@ -11,6 +11,7 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             count = (i + 1) * (n - i);
             sum += (long) A[i] * count;
+            
 
         }
         return sum;
