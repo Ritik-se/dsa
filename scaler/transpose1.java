@@ -5,7 +5,8 @@ public class Solution {
     public int[][] solve(int[][] A) {
         int[][] ans = new int[A.length][A[0].length];
         for (int i = 0; i < A.length; i++) {
-            for (int j = 0; j < A[0].length; j++) {
+            for (int j = 0; j < A[0].length; j++) {//transpose of a matrix
+                
                 ans[j][i] = A[i][j];
             }
 
