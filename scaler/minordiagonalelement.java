@@ -11,7 +11,7 @@ public class Solution {
             sum += A[i][n - 1 - i];//imp for j
 
         }
-        return sum;
+        return sum; // MINOR DIGONAL
     }
 
 }
