@@ -8,7 +8,7 @@ public class Solution {
 
             map.put(A.get(i), map.getOrDefault(A.get(i), 0) + 1);
 
-        }
+        }// we use hash map in this 
         int sum = 0;
         boolean bol = false;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
