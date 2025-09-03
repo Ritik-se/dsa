@@ -13,5 +13,5 @@ int carry=0;
         }
         int sum=bit1+bit2+carry;
         int result=sum%2;/// logic and easy 
-         carry=sum/2;
+         carry=sum/2;// considerd carry 
          ans.append(result);
