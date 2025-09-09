@@ -14,7 +14,7 @@ public class Solution {
         }
         for (int i = 0; i < a.length; i++) {
             sub = max - a[i];
-            count = count + sub;
+            count = count + sub;//
 
         }
         return count;
