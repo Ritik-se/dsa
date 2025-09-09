@@ -13,7 +13,7 @@ public public class Solution {
             } else {
                 ps[i] = ps[i - 1];
             }
-        }
+        }// this is sum of all even indices  
         for (int i = 0; i < B.length; i++) {
             sum = 0;
             s = B[i][0];
