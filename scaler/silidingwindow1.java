@@ -9,7 +9,7 @@ public public class Solution {
 
         }
         if (tsum == C) {
-            return 1;
+            return 1;// we silde the window 
         }
         int s = 1;
         int e = B;
